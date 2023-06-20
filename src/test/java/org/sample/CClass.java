@@ -27,10 +27,15 @@ public class CClass {
 	@Test(groups = "regression")
 	private void tC21() {
 		System.out.println("tc21");
+	}	
+	@Test(groups = "regression")
+	private void tC23() {
+		System.out.println("tc23");
 	}
 	@Test(groups = "regression")
 	private void tC24() {
-		System.out.println("tc24");
-	}
-	
+	System.out.println("tc24");
+}
+
+
 }
