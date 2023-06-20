@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12275" started-at="2023-06-20T05:53:12Z" finished-at="2023-06-20T05:53:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12275" started-at="2023-06-20T05:53:12Z" finished-at="2023-06-20T05:53:24Z">
+      <class name="org.sample.Project">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:org.sample.Project@6a4f787b]" name="preCondition" is-config="true" duration-ms="4534" started-at="2023-06-20T05:53:12Z" finished-at="2023-06-20T05:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="startDateAndTime()[pri:0, instance:org.sample.Project@6a4f787b]" name="startDateAndTime" is-config="true" duration-ms="1" started-at="2023-06-20T05:53:16Z" finished-at="2023-06-20T05:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDateAndTime -->
+        <test-method status="PASS" signature="tC1(java.lang.String, java.lang.String)[pri:0, instance:org.sample.Project@6a4f787b]" name="tC1" duration-ms="1185" started-at="2023-06-20T05:53:16Z" data-provider="sample data" finished-at="2023-06-20T05:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gowtham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.03.1995]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC1 -->
+        <test-method status="PASS" signature="endDateAndTime()[pri:0, instance:org.sample.Project@6a4f787b]" name="endDateAndTime" is-config="true" duration-ms="2" started-at="2023-06-20T05:53:17Z" finished-at="2023-06-20T05:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDateAndTime -->
+        <test-method status="PASS" signature="startDateAndTime()[pri:0, instance:org.sample.Project@6a4f787b]" name="startDateAndTime" is-config="true" duration-ms="1" started-at="2023-06-20T05:53:17Z" finished-at="2023-06-20T05:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDateAndTime -->
+        <test-method status="FAIL" signature="tC1(java.lang.String, java.lang.String)[pri:0, instance:org.sample.Project@6a4f787b]" name="tC1" duration-ms="4748" started-at="2023-06-20T05:53:17Z" data-provider="sample data" finished-at="2023-06-20T05:53:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aishu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01.03.1996]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6HQKB9E7', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\gowth\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73954a3f1912ef2c0a00500d673df489
+*** Element info: {Using=id, value=email}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6HQKB9E7', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\gowth\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73954a3f1912ef2c0a00500d673df489
+*** Element info: {Using=id, value=email}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+at org.utility.BaseClass.passingText(BaseClass.java:48)
+at org.sample.Project.tC1(Project.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC1 -->
+        <test-method status="PASS" signature="startDateAndTime()[pri:0, instance:org.sample.Project@6a4f787b]" name="startDateAndTime" is-config="true" duration-ms="0" started-at="2023-06-20T05:53:22Z" finished-at="2023-06-20T05:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDateAndTime -->
+        <test-method status="PASS" signature="endDateAndTime()[pri:0, instance:org.sample.Project@6a4f787b]" name="endDateAndTime" is-config="true" duration-ms="0" started-at="2023-06-20T05:53:22Z" finished-at="2023-06-20T05:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDateAndTime -->
+        <test-method status="PASS" signature="tC1(java.lang.String, java.lang.String)[pri:0, instance:org.sample.Project@6a4f787b]" name="tC1" duration-ms="1074" started-at="2023-06-20T05:53:22Z" data-provider="sample data" finished-at="2023-06-20T05:53:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[josvik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[26.12.2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC1 -->
+        <test-method status="PASS" signature="endDateAndTime()[pri:0, instance:org.sample.Project@6a4f787b]" name="endDateAndTime" is-config="true" duration-ms="1" started-at="2023-06-20T05:53:23Z" finished-at="2023-06-20T05:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDateAndTime -->
+        <test-method status="PASS" signature="startDateAndTime()[pri:0, instance:org.sample.Project@6a4f787b]" name="startDateAndTime" is-config="true" duration-ms="1" started-at="2023-06-20T05:53:23Z" finished-at="2023-06-20T05:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDateAndTime -->
+        <test-method status="PASS" signature="tC3()[pri:0, instance:org.sample.Project@6a4f787b]" name="tC3" duration-ms="1" started-at="2023-06-20T05:53:23Z" finished-at="2023-06-20T05:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC3 -->
+        <test-method status="PASS" signature="endDateAndTime()[pri:0, instance:org.sample.Project@6a4f787b]" name="endDateAndTime" is-config="true" duration-ms="0" started-at="2023-06-20T05:53:23Z" finished-at="2023-06-20T05:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDateAndTime -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:org.sample.Project@6a4f787b]" name="postCondition" is-config="true" duration-ms="688" started-at="2023-06-20T05:53:23Z" finished-at="2023-06-20T05:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- org.sample.Project -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
