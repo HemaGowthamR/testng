@@ -28,5 +28,9 @@ public class CClass {
 	private void tC21() {
 		System.out.println("tc21");
 	}
-
+	@Test(groups = "regression")
+	private void tC24() {
+		System.out.println("tc24");
+	}
+	
 }
