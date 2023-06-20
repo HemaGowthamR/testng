@@ -35,6 +35,10 @@ public class CClass {
 	@Test(groups = "regression")
 	private void tC24() {
 	System.out.println("tc24");
+
+		@Test(groups = "regression")
+	private void tC25() {
+	System.out.println("tc25");
 }
 
 
